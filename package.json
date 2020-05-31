@@ -1,0 +1,19 @@
+{
+	"name": "uby",
+	"author": "Jean-Christophe",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "set NODE_ENV=test && nodemon --exec mocha --recursive",
+		"start": "set NODE_ENV=development && nodemon index.js"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mocha": "^7.2.0",
+		"mongoose": "^5.9.16",
+		"supertest": "^4.0.2"
+	}
+}
